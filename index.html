@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elite Chauffeur — Premium executive chauffeur services. Airport transfers, corporate travel, and special occasions. Book your luxury journey today.">
+  <meta name="keywords" content="chauffeur service, executive transport, airport transfer, luxury car hire, corporate travel">
+  <meta property="og:title" content="Elite Chauffeur — Premium Executive Transport">
+  <meta property="og:description" content="World-class chauffeur services for the discerning professional.">
+  <meta property="og:type" content="website">
+  <title>Elite Chauffeur — Premium Executive Transport</title>
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://yourdomain.com/">
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" type="image/png" href="https://i.ibb.co.com/sJ5f8NXn/Logo.png">
+
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════════ -->
+<nav id="navbar" role="navigation" aria-label="Main Navigation">
+  <div class="container nav-inner">
+
+    <a href="#" class="nav-logo" data-page="home" aria-label="Elite Chauffeur Home">
+      <img src="https://i.ibb.co.com/sJ5f8NXn/Logo.png"
+           alt="Elite Chauffeur Logo"
+           onerror="this.onerror=null;this.src='';this.parentNode.innerHTML='<span style=\'font-family:Cormorant Garamond,serif;font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:0.08em;\'>ELITE<span style=\'color:var(--text-primary)\'>&#8201;CHAUFFEUR</span></span>'">
+    </a>
+
+    <!-- Desktop menu -->
+    <ul class="nav-menu" role="list">
+      <li><a href="#" class="nav-link active" data-page="home" data-i18n="nav_home">Home</a></li>
+      <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+      <li><a href="#fleet" class="nav-link" data-i18n="nav_fleet">Our Fleet</a></li>
+      <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <!-- Language -->
+      <button class="icon-btn lang-btn" id="lang-btn" aria-label="Change language" title="Change Language">EN</button>
+      <!-- Theme -->
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle Theme">&#9790;</button>
+      <!-- CTA -->
+      <a href="#" class="btn btn-gold d-none d-lg-inline-flex" data-page="quote" data-i18n="nav_quote" style="padding:10px 22px;font-size:0.72rem;">Get a Quote</a>
+      <!-- Hamburger -->
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div id="nav-mobile" class="nav-mobile">
+    <a href="#" class="nav-link" data-page="home" data-i18n="nav_home">Home</a>
+    <a href="#services" class="nav-link" data-i18n="nav_services">Services</a>
+    <a href="#fleet" class="nav-link" data-i18n="nav_fleet">Our Fleet</a>
+    <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+    <a href="#" class="btn btn-gold mt-2" data-page="quote" data-i18n="nav_quote" style="width:fit-content;padding:10px 24px;font-size:0.72rem;">Get a Quote</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════
+     PAGE: HOME
+══════════════════════════════════════════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- ── Hero ── -->
+  <section id="hero" aria-label="Hero Banner">
+    <div class="hero-bg" role="img" aria-label="Luxury chauffeur vehicle on a premium road"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Left: Text -->
+          <div class="hero-text">
+            <p class="hero-eyebrow" data-i18n="hero_eyebrow">Premium Executive Transport</p>
+            <h1 class="hero-title">
+              <span data-i18n="hero_title_1">Your Journey,</span><br>
+              <em data-i18n="hero_title_2">Our Distinction.</em>
+            </h1>
+            <p class="hero-desc" data-i18n="hero_desc">
+              Experience world-class chauffeur services tailored to the discerning professional. Reliable, discreet, and unfailingly elegant.
+            </p>
+            <div class="hero-btns">
+              <a href="#" class="btn btn-gold" data-page="quote">
+                <i class="fa fa-car"></i>
+                <span data-i18n="hero_btn1">Book Your Journey</span>
+              </a>
+              <a href="#services" class="btn btn-outline">
+                <span data-i18n="hero_btn2">Explore Services</span>
+                <i class="fa fa-arrow-down"></i>
+              </a>
+            </div>
+
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-number counter" data-target="5000" data-suffix="+">5000+</div>
+                <div class="stat-label" data-i18n="stat_1_label">Journeys Completed</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number counter" data-target="320" data-suffix="+">320+</div>
+                <div class="stat-label" data-i18n="stat_2_label">Corporate Clients</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number counter" data-target="12" data-suffix="">12</div>
+                <div class="stat-label" data-i18n="stat_3_label">Years Excellence</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Multi-Step Form -->
+          <div class="hero-form-wrap">
+            <div class="hero-form-card">
+              <h2 class="form-card-title" data-i18n="form_title">Request a Quote</h2>
+              <p class="form-card-subtitle" data-i18n="form_sub">Complimentary &amp; Confidential</p>
+
+              <!-- Step Progress -->
+              <div class="step-progress">
+                <div class="step-dot active">1</div>
+                <div class="step-line"></div>
+                <div class="step-dot">2</div>
+                <div class="step-line"></div>
+                <div class="step-dot">3</div>
+              </div>
+              <div class="step-label-row">
+                <span class="step-lbl active" data-i18n="step1">Personal</span>
+                <span class="step-lbl" data-i18n="step2">Journey</span>
+                <span class="step-lbl" data-i18n="step3">Details</span>
+              </div>
+
+              <div id="hero-form">
+                <div id="hero-form-alert" class="alert"></div>
+
+                <div id="hero-form-inner">
+                  <!-- Step 1 -->
+                  <div class="form-step active">
+                    <div class="field-group">
+                      <label class="field-label" for="h-name">Full Name</label>
+                      <input class="field-input" id="h-name" name="name" type="text" placeholder="Your full name" required autocomplete="name">
+                      <span class="error-msg">Full name is required.</span>
+                    </div>
+                    <div class="field-group">
+                      <label class="field-label" for="h-email">Email Address</label>
+                      <input class="field-input" id="h-email" name="email" type="email" placeholder="your@email.com" required autocomplete="email">
+                      <span class="error-msg">Valid email required.</span>
+                    </div>
+                    <div class="field-group">
+                      <label class="field-label" for="h-phone">Phone Number</label>
+                      <input class="field-input" id="h-phone" name="phone" type="tel" placeholder="+44 7700 900000" required autocomplete="tel">
+                      <span class="error-msg">Phone number is required.</span>
+                    </div>
+                    <div class="form-nav">
+                      <button class="btn-step btn-step-next" type="button">Continue <i class="fa fa-arrow-right ms-1"></i></button>
+                    </div>
+                  </div>
+
+                  <!-- Step 2 -->
+                  <div class="form-step">
+                    <div class="field-group">
+                      <label class="field-label" for="h-pickup">Pickup Location</label>
+                      <input class="field-input" id="h-pickup" name="pickup" type="text" placeholder="Address or landmark" required>
+                      <span class="error-msg">Pickup location is required.</span>
+                    </div>
+                    <div class="field-group">
+                      <label class="field-label" for="h-dropoff">Drop-off Location</label>
+                      <input class="field-input" id="h-dropoff" name="dropoff" type="text" placeholder="Destination address" required>
+                      <span class="error-msg">Drop-off location is required.</span>
+                    </div>
+                    <div class="field-row">
+                      <div class="field-group">
+                        <label class="field-label" for="h-date">Date</label>
+                        <input class="field-input" id="h-date" name="date" type="date" required>
+                        <span class="error-msg">Date is required.</span>
+                      </div>
+                      <div class="field-group">
+                        <label class="field-label" for="h-time">Time</label>
+                        <input class="field-input" id="h-time" name="time" type="time">
+                      </div>
+                    </div>
+                    <div class="form-nav">
+                      <button class="btn-step btn-step-prev" type="button"><i class="fa fa-arrow-left me-1"></i> Back</button>
+                      <button class="btn-step btn-step-next" type="button">Continue <i class="fa fa-arrow-right ms-1"></i></button>
+                    </div>
+                  </div>
+
+                  <!-- Step 3 -->
+                  <div class="form-step">
+                    <div class="field-group">
+                      <label class="field-label" for="h-service">Service Type</label>
+                      <select class="field-input" id="h-service" name="service">
+                        <option value="">Select a service...</option>
+                        <option>Airport Transfer</option>
+                        <option>Corporate Travel</option>
+                        <option>Wedding &amp; Events</option>
+                        <option>City Tour</option>
+                        <option>Long Distance</option>
+                        <option>Other</option>
+                      </select>
+                    </div>
+                    <div class="field-group">
+                      <label class="field-label" for="h-passengers">Passengers</label>
+                      <select class="field-input" id="h-passengers" name="passengers">
+                        <option>1</option><option>2</option><option>3</option>
+                        <option>4</option><option>5</option><option>6+</option>
+                      </select>
+                    </div>
+                    <div class="field-group">
+                      <label class="field-label" for="h-details">Additional Notes</label>
+                      <textarea class="field-input" id="h-details" name="details" placeholder="Special requirements, flight number, etc." style="min-height:70px;"></textarea>
+                    </div>
+                    <!-- Honeypot -->
+                    <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+                    <div class="form-nav">
+                      <button class="btn-step btn-step-prev" type="button"><i class="fa fa-arrow-left me-1"></i> Back</button>
+                      <button class="btn-step btn-step-next" id="hero-submit" type="button"><i class="fa fa-paper-plane me-1"></i> Send Request</button>
+                    </div>
+                  </div>
+                </div><!-- /hero-form-inner -->
+
+                <!-- Success -->
+                <div class="form-success" id="hero-form-success">
+                  <div class="success-icon"><i class="fa fa-check"></i></div>
+                  <h3 class="success-title">Enquiry Received!</h3>
+                  <p class="success-text">Thank you. Our reservations team will contact you within 2 hours to confirm your booking.</p>
+                </div>
+
+              </div><!-- /hero-form -->
+            </div><!-- /hero-form-card -->
+          </div><!-- /hero-form-wrap -->
+
+        </div><!-- /hero-grid -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Trust Bar ── -->
+  <div id="trust-bar" role="region" aria-label="Trust Indicators">
+    <div class="container">
+      <div class="trust-items stagger">
+        <div class="trust-item">
+          <span class="trust-icon"><i class="fa fa-shield-halved"></i></span>
+          <div class="trust-text">
+            <strong>Fully Insured</strong>
+            <span>Licensed &amp; Certified</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon"><i class="fa fa-clock"></i></span>
+          <div class="trust-text">
+            <strong>24/7 Available</strong>
+            <span>Around the Clock</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon"><i class="fa fa-star"></i></span>
+          <div class="trust-text">
+            <strong>5-Star Rated</strong>
+            <span>Trusted by Thousands</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon"><i class="fa fa-plane-arrival"></i></span>
+          <div class="trust-text">
+            <strong>Flight Tracking</strong>
+            <span>Real-Time Monitoring</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <span class="trust-icon"><i class="fa fa-lock"></i></span>
+          <div class="trust-text">
+            <strong>Discreet Service</strong>
+            <span>Privacy Guaranteed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Services ── -->
+  <section id="services" class="section-pad" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="services-header text-center reveal">
+        <span class="section-label" data-i18n="services_label">What We Offer</span>
+        <h2 class="section-title" id="services-heading">Exceptional Services,<br>Every Journey</h2>
+        <div class="gold-line centered"></div>
+        <p class="section-subtitle" style="margin:0 auto;" data-i18n="services_sub">
+          From intimate airport transfers to large-scale corporate events, we deliver an uncompromising standard of luxury and reliability.
+        </p>
+      </div>
+
+      <div class="services-grid stagger">
+
+        <article class="service-card" tabindex="0">
+          <img class="service-img"
+               src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80"
+               alt="Airport Transfer Service — Luxury vehicle at airport"
+               loading="lazy">
+          <div class="service-body">
+            <span class="service-tag">Most Popular</span>
+            <h3 class="service-title">Airport Transfers</h3>
+            <p class="service-desc">Meet &amp; greet service, real-time flight monitoring, and seamless transfers. Never wait, always arrive in style.</p>
+            <a href="#" class="service-link" data-page="quote">Request This Service <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <img class="service-img"
+               src="https://images.unsplash.com/photo-1600320254374-ce2d293c324e?w=800&q=80"
+               alt="Corporate Travel — Executive chauffeur service"
+               loading="lazy">
+          <div class="service-body">
+            <span class="service-tag">Business</span>
+            <h3 class="service-title">Corporate Travel</h3>
+            <p class="service-desc">Dedicated account management, roadshows, and board-level transport. Productivity and prestige, combined.</p>
+            <a href="#" class="service-link" data-page="quote">Request This Service <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <img class="service-img"
+               src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80"
+               alt="Wedding Chauffeur — Elegant wedding car"
+               loading="lazy">
+          <div class="service-body">
+            <span class="service-tag">Special Occasions</span>
+            <h3 class="service-title">Weddings &amp; Events</h3>
+            <p class="service-desc">Make your special day unforgettable. Immaculately presented vehicles and impeccably dressed chauffeurs.</p>
+            <a href="#" class="service-link" data-page="quote">Request This Service <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <img class="service-img"
+               src="https://images.unsplash.com/photo-1509023464722-18d996393ca8?w=800&q=80"
+               alt="City Tours — Luxury city exploration"
+               loading="lazy">
+          <div class="service-body">
+            <span class="service-tag">Leisure</span>
+            <h3 class="service-title">City &amp; Sightseeing Tours</h3>
+            <p class="service-desc">Discover the city in supreme comfort. Personalised itineraries, knowledgeable chauffeurs, pure indulgence.</p>
+            <a href="#" class="service-link" data-page="quote">Request This Service <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <img class="service-img"
+               src="https://mirzarentacar.com.tr/dosya/3603/blog/28-2-which-rental-cars-are-the-most-comfortable-for-long-journeys_519.png"
+               alt="Long Distance Travel — Intercity luxury transport"
+               loading="lazy">
+          <div class="service-body">
+            <span class="service-tag">Long Haul</span>
+            <h3 class="service-title">Long Distance Journeys</h3>
+            <p class="service-desc">Intercity and cross-country transfers in absolute comfort. Flat rates, no hidden charges, exceptional service.</p>
+            <a href="#" class="service-link" data-page="quote">Request This Service <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="service-card" tabindex="0">
+          <img class="service-img"
+               src="https://captainchauffeur.com/wp-content/uploads/2026/04/vip-transport-security-malaysia-convoy-1200x654-1.webp"
+               alt="VIP Security Transport"
+               loading="lazy">
+          <div class="service-body">
+            <span class="service-tag">VIP</span>
+            <h3 class="service-title">VIP &amp; Security Transport</h3>
+            <p class="service-desc">Discreet, professional security-conscious transport for high-profile individuals requiring the utmost privacy.</p>
+            <a href="#" class="service-link" data-page="quote">Request This Service <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Why Choose Us ── -->
+  <section id="why" class="section-pad" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="why-grid">
+
+        <div class="why-image-wrap reveal-left">
+          <img class="why-main-img"
+               src="https://le-vince.com/wp-content/uploads/car2.jpg"
+               alt="Professional chauffeur standing by luxury vehicle"
+               loading="lazy">
+          <div class="why-badge">
+            <span class="why-badge-num">12+</span>
+            <span class="why-badge-text">Years of<br>Excellence</span>
+          </div>
+        </div>
+
+        <div class="reveal-right">
+          <span class="section-label" data-i18n="why_label">Why Choose Us</span>
+          <h2 class="section-title" id="why-heading" data-i18n="why_title">The Benchmark of<br>Luxury Transport</h2>
+          <div class="gold-line"></div>
+          <p class="section-subtitle">We don't merely provide transport — we curate an experience. Every detail, from vehicle preparation to chauffeur conduct, is held to the highest standard.</p>
+
+          <div class="feature-list stagger">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa fa-user-tie"></i></div>
+              <h4 class="feature-title">Vetted Chauffeurs</h4>
+              <p class="feature-text">All drivers are background-checked, professionally trained, and impeccably presented.</p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa fa-car-side"></i></div>
+              <h4 class="feature-title">Premium Fleet</h4>
+              <p class="feature-text">Late-model luxury vehicles, meticulously maintained and fully equipped.</p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa fa-headset"></i></div>
+              <h4 class="feature-title">24/7 Support</h4>
+              <p class="feature-text">Our reservations team is available around the clock, every day of the year.</p>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa fa-location-dot"></i></div>
+              <h4 class="feature-title">Live Tracking</h4>
+              <p class="feature-text">Real-time GPS monitoring for your peace of mind and journey accuracy.</p>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-gold mt-4" data-page="quote">
+            <i class="fa fa-calendar-check"></i>
+            Reserve Your Journey
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Fleet ── -->
+  <section id="fleet" class="section-pad" aria-labelledby="fleet-heading">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Our Fleet</span>
+        <h2 class="section-title" id="fleet-heading">Vehicles Chosen for<br><em>Excellence</em></h2>
+        <div class="gold-line centered"></div>
+      </div>
+
+      <div class="fleet-grid stagger">
+        <div class="fleet-card" tabindex="0">
+          <img class="fleet-img"
+               src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80"
+               alt="Mercedes S-Class luxury sedan"
+               loading="lazy">
+          <div class="fleet-info">
+            <h3 class="fleet-name">Mercedes-Benz S-Class</h3>
+            <span class="fleet-cap"><i class="fa fa-user-group me-1"></i> Up to 3 passengers</span>
+          </div>
+        </div>
+        <div class="fleet-card" tabindex="0">
+          <img class="fleet-img"
+               src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80"
+               alt="BMW 7 Series executive sedan"
+               loading="lazy">
+          <div class="fleet-info">
+            <h3 class="fleet-name">BMW 7 Series</h3>
+            <span class="fleet-cap"><i class="fa fa-user-group me-1"></i> Up to 3 passengers</span>
+          </div>
+        </div>
+        <div class="fleet-card" tabindex="0">
+          <img class="fleet-img"
+               src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&q=80"
+               alt="Range Rover luxury SUV"
+               loading="lazy">
+          <div class="fleet-info">
+            <h3 class="fleet-name">Range Rover Autobiography</h3>
+            <span class="fleet-cap"><i class="fa fa-user-group me-1"></i> Up to 4 passengers</span>
+          </div>
+        </div>
+        <div class="fleet-card" tabindex="0">
+          <img class="fleet-img"
+               src="https://images.unsplash.com/photo-1631295868223-63265b40d9e4?w=600&q=80"
+               alt="Mercedes V-Class luxury van"
+               loading="lazy">
+          <div class="fleet-info">
+            <h3 class="fleet-name">Mercedes V-Class</h3>
+            <span class="fleet-cap"><i class="fa fa-user-group me-1"></i> Up to 7 passengers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Testimonials ── -->
+  <section id="testimonials" class="section-pad" aria-labelledby="testi-heading">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Client Reviews</span>
+        <h2 class="section-title" id="testi-heading">Words From Our<br><em>Valued Clients</em></h2>
+        <div class="gold-line centered"></div>
+      </div>
+
+      <div class="testimonial-slider" role="region" aria-label="Client Testimonials">
+        <button class="slider-prev" aria-label="Previous testimonial"><i class="fa fa-chevron-left"></i></button>
+        <button class="slider-next" aria-label="Next testimonial"><i class="fa fa-chevron-right"></i></button>
+
+        <div class="testimonial-track">
+
+          <div class="testimonial-card">
+            <div class="testi-inner">
+              <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testi-quote">
+                "From the moment the chauffeur arrived to when we reached our destination, every detail was perfect. The vehicle was immaculate, the driver professional and discreet. Truly a first-class experience."
+              </blockquote>
+              <div class="testi-author">
+                <img class="testi-avatar"
+                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&q=80"
+                     alt="James Hartley">
+                <div>
+                  <p class="testi-name">James Hartley</p>
+                  <p class="testi-role">Managing Director, Hartley Ventures</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-inner">
+              <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testi-quote">
+                "We used Elite Chauffeur for our entire wedding day — the bridal car was stunning and our driver was so helpful and patient. Absolutely exceeded all expectations."
+              </blockquote>
+              <div class="testi-author">
+                <img class="testi-avatar"
+                     src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=100&q=80"
+                     alt="Sophie &amp; Liam Carter">
+                <div>
+                  <p class="testi-name">Sophie &amp; Liam Carter</p>
+                  <p class="testi-role">Wedding Clients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testi-inner">
+              <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testi-quote">
+                "Our company has used Elite Chauffeur for over three years for all executive airport runs. The consistency in service quality is remarkable — they have never let us down once."
+              </blockquote>
+              <div class="testi-author">
+                <img class="testi-avatar"
+                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80"
+                     alt="Richard Pemberton">
+                <div>
+                  <p class="testi-name">Richard Pemberton</p>
+                  <p class="testi-role">CEO, Pemberton &amp; Associates</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /track -->
+
+        <div class="slider-dots" role="tablist" aria-label="Testimonial navigation">
+          <button class="slider-dot active" data-slide="0" role="tab" aria-label="Testimonial 1"></button>
+          <button class="slider-dot" data-slide="1" role="tab" aria-label="Testimonial 2"></button>
+          <button class="slider-dot" data-slide="2" role="tab" aria-label="Testimonial 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA Banner ── -->
+  <section id="cta-banner" aria-label="Call to Action">
+    <div class="cta-bg" role="img" aria-label="Luxury vehicle on night road"></div>
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <span class="section-label">Book Today</span>
+        <h2 class="cta-title" data-i18n="cta_title">Ready for an<br>Extraordinary Experience?</h2>
+        <p class="cta-text" data-i18n="cta_text">Reserve your journey today and let us redefine the way you travel.</p>
+        <a href="tel:+441234567890" class="cta-phone">+44 (0)1234 567 890</a>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+          <a href="#" class="btn btn-gold" data-page="quote">
+            <i class="fa fa-calendar-check"></i> Get Your Free Quote
+          </a>
+          <a href="tel:+441234567890" class="btn btn-outline" style="border-color:#fff;color:#fff;">
+            <i class="fa fa-phone"></i> Call Us Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ── -->
+  <section id="contact" class="section-pad" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="reveal-left">
+          <span class="section-label" data-i18n="contact_label">Get in Touch</span>
+          <h2 class="section-title" id="contact-heading" data-i18n="contact_title">We Are Here<br>For You</h2>
+          <div class="gold-line"></div>
+          <p class="section-subtitle" style="margin-bottom:40px;">Our dedicated reservations team is available 24 hours a day, 7 days a week to assist with any enquiry.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-phone"></i></div>
+            <div>
+              <p class="contact-item-title">Phone</p>
+              <p class="contact-item-value"><a href="tel:+441234567890">+44 (0)1234 567 890</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+            <div>
+              <p class="contact-item-title">Email</p>
+              <p class="contact-item-value"><a href="mailto:enquiries@yourdomain.com">enquiries@yourdomain.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-location-dot"></i></div>
+            <div>
+              <p class="contact-item-title">Office</p>
+              <p class="contact-item-value">London, United Kingdom</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa fa-clock"></i></div>
+            <div>
+              <p class="contact-item-title">Hours</p>
+              <p class="contact-item-value">24 Hours / 7 Days a Week</p>
+            </div>
+          </div>
+
+          <div class="social-row">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="reveal-right">
+          <div class="contact-form">
+            <h3 style="font-size:1.5rem;margin-bottom:28px;font-family:'Cormorant Garamond',serif;">Send a Message</h3>
+            <div id="contact-alert" class="alert"></div>
+
+            <form id="contact-form" novalidate>
+              <div class="contact-row">
+                <div class="contact-field">
+                  <label class="contact-label" for="c-name">Full Name</label>
+                  <input class="contact-input" id="c-name" name="contact_name" type="text" placeholder="Your name" required autocomplete="name">
+                </div>
+                <div class="contact-field">
+                  <label class="contact-label" for="c-email">Email</label>
+                  <input class="contact-input" id="c-email" name="contact_email" type="email" placeholder="your@email.com" required autocomplete="email">
+                </div>
+              </div>
+              <div class="contact-row">
+                <div class="contact-field">
+                  <label class="contact-label" for="c-phone">Phone</label>
+                  <input class="contact-input" id="c-phone" name="contact_phone" type="tel" placeholder="+44 7700 900000" autocomplete="tel">
+                </div>
+                <div class="contact-field">
+                  <label class="contact-label" for="c-subject">Subject</label>
+                  <select class="contact-input" id="c-subject" name="contact_subject">
+                    <option>General Enquiry</option>
+                    <option>Quote Request</option>
+                    <option>Corporate Account</option>
+                    <option>Complaint</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="contact-field">
+                <label class="contact-label" for="c-msg">Message</label>
+                <textarea class="contact-input" id="c-msg" name="contact_message" placeholder="How can we help you?" required></textarea>
+              </div>
+              <!-- Honeypot -->
+              <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+              <button class="btn btn-gold w-100 justify-content-center" type="submit">
+                <i class="fa fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+
+<!-- ═══════════════════════════════════════════════
+     PAGE: GET A QUOTE
+══════════════════════════════════════════════════ -->
+<div id="page-quote" class="page">
+
+  <!-- Quote Hero -->
+  <div class="quote-hero">
+    <div class="quote-hero-bg" role="img" aria-label="Luxury chauffeur vehicle"></div>
+    <div class="quote-hero-overlay"></div>
+    <div class="container quote-hero-content">
+      <span class="section-label">No Obligation</span>
+      <h1 class="section-title" style="color:#fff;">Request Your<br><em style="color:var(--gold-light);">Complimentary Quote</em></h1>
+      <div class="gold-line centered"></div>
+      <p class="section-subtitle" style="color:rgba(255,255,255,0.65);margin:0 auto;">
+        Complete the form below and our reservations team will respond within 2 hours with a tailored quote.
+      </p>
+    </div>
+  </div>
+
+  <!-- Quote Form -->
+  <div class="quote-form-section">
+    <div class="container">
+      <div class="quote-form-card reveal">
+
+        <!-- Progress -->
+        <div class="q-progress">
+          <div class="q-step-row">
+            <div class="q-dot active">1</div>
+            <div class="q-line"></div>
+            <div class="q-dot">2</div>
+            <div class="q-line"></div>
+            <div class="q-dot">3</div>
+            <div class="q-line"></div>
+            <div class="q-dot">4</div>
+          </div>
+          <div class="q-labels">
+            <span class="q-lbl active">Personal</span>
+            <span class="q-lbl">Journey</span>
+            <span class="q-lbl">Service</span>
+            <span class="q-lbl">Review</span>
+          </div>
+        </div>
+
+        <div id="quote-alert" class="alert"></div>
+
+        <div id="quote-form-inner">
+          <div id="quote-form">
+
+            <!-- Q Step 1: Personal -->
+            <div class="q-step active">
+              <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;margin-bottom:6px;">Personal Information</h3>
+              <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:28px;font-family:'Montserrat',sans-serif;">Please provide your contact details so we can respond with your tailored quote.</p>
+              <div class="q-row">
+                <div class="q-field">
+                  <label class="q-label" for="q-fname">First Name</label>
+                  <input class="q-input" id="q-fname" name="first_name" type="text" placeholder="First name" required autocomplete="given-name">
+                  <span class="error-msg">Required.</span>
+                </div>
+                <div class="q-field">
+                  <label class="q-label" for="q-lname">Last Name</label>
+                  <input class="q-input" id="q-lname" name="last_name" type="text" placeholder="Last name" required autocomplete="family-name">
+                  <span class="error-msg">Required.</span>
+                </div>
+              </div>
+              <div class="q-field">
+                <label class="q-label" for="q-email">Email Address</label>
+                <input class="q-input" id="q-email" name="email" type="email" placeholder="your@email.com" required autocomplete="email">
+                <span class="error-msg">Valid email required.</span>
+              </div>
+              <div class="q-field">
+                <label class="q-label" for="q-phone">Phone Number</label>
+                <input class="q-input" id="q-phone" name="phone" type="tel" placeholder="+44 7700 900000" required autocomplete="tel">
+                <span class="error-msg">Phone number required.</span>
+              </div>
+              <div class="q-nav">
+                <div></div>
+                <button class="btn-q-next" type="button">Next Step <i class="fa fa-arrow-right ms-2"></i></button>
+              </div>
+            </div>
+
+            <!-- Q Step 2: Journey -->
+            <div class="q-step">
+              <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;margin-bottom:6px;">Journey Details</h3>
+              <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:28px;font-family:'Montserrat',sans-serif;">Tell us where you need to go and when.</p>
+              <div class="q-field">
+                <label class="q-label" for="q-pickup">Pickup Location</label>
+                <input class="q-input" id="q-pickup" name="pickup" type="text" placeholder="Full address or landmark" required>
+                <span class="error-msg">Pickup location required.</span>
+              </div>
+              <div class="q-field">
+                <label class="q-label" for="q-dropoff">Drop-off Location</label>
+                <input class="q-input" id="q-dropoff" name="dropoff" type="text" placeholder="Destination address" required>
+                <span class="error-msg">Drop-off location required.</span>
+              </div>
+              <div class="q-row">
+                <div class="q-field">
+                  <label class="q-label" for="q-date">Date of Travel</label>
+                  <input class="q-input" id="q-date" name="date" type="date" required>
+                  <span class="error-msg">Date required.</span>
+                </div>
+                <div class="q-field">
+                  <label class="q-label" for="q-time">Pickup Time</label>
+                  <input class="q-input" id="q-time" name="time" type="time">
+                </div>
+              </div>
+              <div class="q-field">
+                <label class="q-label" for="q-return">Return Journey?</label>
+                <select class="q-input" id="q-return" name="return_journey">
+                  <option value="no">No — One Way</option>
+                  <option value="yes">Yes — Return Trip</option>
+                </select>
+              </div>
+              <div class="q-nav">
+                <button class="btn-q-prev" type="button"><i class="fa fa-arrow-left me-2"></i> Back</button>
+                <button class="btn-q-next" type="button">Next Step <i class="fa fa-arrow-right ms-2"></i></button>
+              </div>
+            </div>
+
+            <!-- Q Step 3: Service -->
+            <div class="q-step">
+              <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;margin-bottom:6px;">Service Preferences</h3>
+              <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:28px;font-family:'Montserrat',sans-serif;">Help us match you with the perfect vehicle and service.</p>
+              <div class="q-row">
+                <div class="q-field">
+                  <label class="q-label" for="q-service">Service Type</label>
+                  <select class="q-input" id="q-service" name="service">
+                    <option value="">Select...</option>
+                    <option>Airport Transfer</option>
+                    <option>Corporate Travel</option>
+                    <option>Wedding &amp; Special Event</option>
+                    <option>City Tour</option>
+                    <option>Long Distance</option>
+                    <option>VIP / Security</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="q-field">
+                  <label class="q-label" for="q-vehicle">Vehicle Preference</label>
+                  <select class="q-input" id="q-vehicle" name="vehicle">
+                    <option value="">Any Available</option>
+                    <option>Mercedes S-Class</option>
+                    <option>BMW 7 Series</option>
+                    <option>Range Rover Autobiography</option>
+                    <option>Mercedes V-Class (7 seats)</option>
+                  </select>
+                </div>
+              </div>
+              <div class="q-row">
+                <div class="q-field">
+                  <label class="q-label" for="q-passengers">No. of Passengers</label>
+                  <select class="q-input" id="q-passengers" name="passengers">
+                    <option>1</option><option>2</option><option>3</option>
+                    <option>4</option><option>5</option><option>6</option><option>7+</option>
+                  </select>
+                </div>
+                <div class="q-field">
+                  <label class="q-label" for="q-luggage">Luggage Pieces</label>
+                  <select class="q-input" id="q-luggage" name="luggage">
+                    <option>0</option><option>1</option><option>2</option>
+                    <option>3</option><option>4+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="q-field">
+                <label class="q-label" for="q-details">Additional Requirements</label>
+                <textarea class="q-input" id="q-details" name="details" placeholder="Flight number, special requests, child seats, accessibility needs..."></textarea>
+              </div>
+              <!-- Honeypot -->
+              <input type="text" name="website" style="display:none;" tabindex="-1" autocomplete="off">
+              <div class="q-nav">
+                <button class="btn-q-prev" type="button"><i class="fa fa-arrow-left me-2"></i> Back</button>
+                <button class="btn-q-next" id="quote-submit" type="button"><i class="fa fa-paper-plane me-2"></i> Submit Enquiry</button>
+              </div>
+            </div>
+
+          </div><!-- /quote-form -->
+        </div><!-- /quote-form-inner -->
+
+        <!-- Success -->
+        <div id="quote-success" style="text-align:center;padding:48px 0;display:none;">
+          <div style="width:80px;height:80px;border-radius:50%;background:linear-gradient(135deg,var(--gold),var(--accent-dark));display:flex;align-items:center;justify-content:center;font-size:2rem;color:#fff;margin:0 auto 24px;box-shadow:0 0 36px rgba(201,168,76,.45);">
+            <i class="fa fa-check"></i>
+          </div>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:2rem;margin-bottom:12px;">Enquiry Received!</h3>
+          <p style="font-size:0.9rem;color:var(--text-muted);font-family:'Montserrat',sans-serif;max-width:480px;margin:0 auto 32px;line-height:1.75;">
+            Thank you for your quote request. A member of our reservations team will contact you within <strong>2 hours</strong> with a personalised quote. A confirmation has been sent to your email.
+          </p>
+          <a href="#" class="btn btn-gold" data-page="home">
+            <i class="fa fa-home me-2"></i> Return Home
+          </a>
+        </div>
+
+      </div><!-- /quote-form-card -->
+    </div>
+  </div>
+
+</div><!-- /page-quote -->
+
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <img class="footer-logo"
+             src="https://i.ibb.co.com/sJ5f8NXn/Logo.png"
+             alt="Elite Chauffeur Logo"
+             onerror="this.onerror=null;this.src='';this.parentNode.innerHTML='<span style=\'font-family:Cormorant Garamond,serif;font-size:1.3rem;font-weight:700;color:#c9a84c;letter-spacing:0.08em;\'>ELITE CHAUFFEUR</span>'">
+        <p class="footer-tagline" data-i18n="footer_tagline">Setting the standard in premium executive chauffeur services across the country.</p>
+        <div class="social-row">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Quick Links</h4>
+        <nav class="footer-links" aria-label="Footer Quick Links">
+          <a href="#" class="footer-link" data-page="home">Home</a>
+          <a href="#services" class="footer-link">Services</a>
+          <a href="#fleet" class="footer-link">Our Fleet</a>
+          <a href="#" class="footer-link" data-page="quote">Get a Quote</a>
+          <a href="#contact" class="footer-link">Contact Us</a>
+        </nav>
+      </div>
+
+      <div>
+        <h4 class="footer-title">Our Services</h4>
+        <nav class="footer-links" aria-label="Footer Services Links">
+          <a href="#" class="footer-link" data-page="quote">Airport Transfers</a>
+          <a href="#" class="footer-link" data-page="quote">Corporate Travel</a>
+          <a href="#" class="footer-link" data-page="quote">Weddings &amp; Events</a>
+          <a href="#" class="footer-link" data-page="quote">City Tours</a>
+          <a href="#" class="footer-link" data-page="quote">Long Distance</a>
+        </nav>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4 class="footer-title">Stay Updated</h4>
+        <p class="newsletter-text">Subscribe for exclusive offers and news from Elite Chauffeur.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input class="newsletter-input" type="email" placeholder="Your email address" aria-label="Email for newsletter">
+          <button class="newsletter-btn" type="submit">Join</button>
+        </form>
+        <div style="margin-top:24px;">
+          <p style="font-size:0.75rem;color:var(--footer-text);font-family:'Montserrat',sans-serif;margin-bottom:6px;">
+            <i class="fa fa-phone" style="color:var(--gold);margin-right:8px;"></i>
+            <a href="tel:+441234567890" style="color:inherit;">+44 (0)1234 567 890</a>
+          </p>
+          <p style="font-size:0.75rem;color:var(--footer-text);font-family:'Montserrat',sans-serif;">
+            <i class="fa fa-envelope" style="color:var(--gold);margin-right:8px;"></i>
+            <a href="mailto:enquiries@yourdomain.com" style="color:inherit;">enquiries@yourdomain.com</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; <span id="year"></span> <span>Dev-Shofiqur</span>. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal Links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="back-top" aria-label="Back to top" title="Back to Top">
+  <i class="fa fa-chevron-up"></i>
+</button>
+
+<!-- Year -->
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
